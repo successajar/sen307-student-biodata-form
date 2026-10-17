@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Biodata Form | SEN 307 Group 8</title>
+
+
+    <!-- Stylesheets will be implemented by CSS team members -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <!-- Validation scripts will be implemented by JS team members -->
+    <script src="js/required.js" defer></script>
+    <script src="js/formats.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Student Biodata Form</h1>
+        <p>Please fill in your information below.</p>
+    </header>
+
+
+    <main>
+        <form id="biodata-form" novalidate>
+
+
+            <!-- Personal information fields -->
+            <fieldset id="personal-info">
+                <legend>Personal Information</legend>
+            </fieldset>
+
+            <!-- Contact information fields -->
+            <fieldset id="contact-info">
+                <legend>Contact Information</legend>
+            </fieldset>
+
+            <!-- Academic information fields -->
+            <fieldset id="academic-info">
+                <legend>Academic Information</legend>
+            </fieldset>
+
+
+            <!-- Submission handling -->
+            <button type="submit" id="submit-button" disabled>
+                Submit Biodata
+            </button>
+
+            <p id="form-status" aria-live="polite"></p>
+
+        </form>
+    </main>
+
+</body>
+</html>
