@@ -43,6 +43,61 @@
             <!-- Academic information fields -->
             <fieldset id="academic-info">
                 <legend>Academic Information</legend>
+
+                <div class="form-group">
+                    <label for="matric-number">Matriculation Number:</label>
+                    <input type="text" id="matric-number" name="matricNumber"
+                           placeholder="Enter your matric number" required>
+                    <small class="error-message" id="matric-number-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" name="department"
+                           placeholder="e.g. Software Engineering" required>
+                    <small class="error-message" id="department-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="faculty">Faculty:</label>
+                    <input type="text" id="faculty" name="faculty"
+                           placeholder="Enter your faculty" required>
+                    <small class="error-message" id="faculty-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="level">Current Level:</label>
+                    <select id="level" name="level" required>
+                        <option value="">Select level</option>
+                        <option value="100">100 Level</option>
+                        <option value="200">200 Level</option>
+                        <option value="300">300 Level</option>
+                        <option value="400">400 Level</option>
+                        <option value="500">500 Level</option>
+                    </select>
+                    <small class="error-message" id="level-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="programme">Programme of Study:</label>
+                    <input type="text" id="programme" name="programme"
+                           placeholder="Enter your programme" required>
+                    <small class="error-message" id="programme-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="entry-year">Year of Admission:</label>
+                    <input type="number" id="entry-year" name="entryYear"
+                           placeholder="e.g. 2023" min="2000" max="2026" required>
+                    <small class="error-message" id="entry-year-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="institution">Institution:</label>
+                    <input type="text" id="institution" name="institution"
+                           placeholder="Enter your institution's name" required>
+                    <small class="error-message" id="institution-error"></small>
+                </div>
             </fieldset>
 
 
