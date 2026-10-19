@@ -55,8 +55,8 @@ The project leader coordinates integration and documentation. Other tasks will c
 ## Project status
 - [x] Repository created
 - [x] Collaboration documentation prepared
-- [ ] Individual GitHub tasks assigned
-- [ ] Form implemented
+- [x] Individual GitHub tasks assigned
+- [x] Form implemented
 - [ ] CSS completed
 - [ ] JavaScript validation completed
 - [ ] Pull Requests reviewed and integrated
