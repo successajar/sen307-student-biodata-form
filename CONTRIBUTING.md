@@ -14,8 +14,8 @@ Use example data only. Do not include real student biodata in this public reposi
 ## Clone and start a branch
 
 ```bash
-git clone https://github.com/successajar/sen307-student-biodata-form.git
-cd sen307-student-biodata-form
+git clone https://github.com/successajar/sen305-student-biodata-form.git
+cd sen305-student-biodata-form
 git switch -c feature/my-task
 ```
 
