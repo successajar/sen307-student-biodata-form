@@ -1,4 +1,4 @@
-/* Responsive layout — SEN 307 Group 8. */
+/* Responsive layout — SEN 305 Group 8. */
 @media (max-width: 768px) {
     main {
         width: min(100% - 1.5rem, 46rem);
