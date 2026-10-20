@@ -1,26 +1,23 @@
-# SEN 307 — Student Biodata Form
+# SEN 305 — Student Biodata Form
 
-Group Assignment 1 | HTML, CSS, and JavaScript
+**Group 8 · Assignment 1 · HTML, CSS and JavaScript**
 
-## Assignment
-Create a student biodata form using **HTML** for the form, **a little CSS** for styling, and **JavaScript** for client-side validation.
+## Overview
+A simple student biodata form built for the SEN 305 group assignment. It collects sample personal, contact and academic details, applies client-side validation and displays feedback.
 
-This is a **frontend-only** exercise. Do not add a database or server unless the lecturer requests one.
+**Frontend-only demo:** Information entered into the form is not sent to a server or saved in a database. Use sample details only; do not commit real student information.
 
-## Planned features
-- Personal information (such as full name and date of birth).
-- Contact information (such as email and phone number).
-- Academic information (such as matriculation number, department, and level).
-- Clearly labeled form fields with appropriate HTML input types.
-- Required-field and format validation, including user-friendly feedback.
-- Simple styling that works on desktop and mobile.
-- A success message for valid input. No real data is saved or transmitted.
+## Features
+- Personal details: first and last names, date of birth and gender
+- Contact details: email, phone number and state of origin
+- Academic details: matriculation number, department, faculty, level and related fields
+- Required-field checks and email, phone, date and admission-year validation
+- Field-level errors and a success message after valid input
+- CSS styling with a mobile-responsive stylesheet prepared for integration
 
-**Privacy:** Use dummy data for demonstrations and screenshots. Do not commit real students' biodata or matriculation numbers to this public repository.
-
-## Planned project structure
+## Project structure
 ```text
-sen307-student-biodata-form/
+sen305-student-biodata-form/
 ├── index.html
 ├── css/
 │   ├── base.css
@@ -33,31 +30,31 @@ sen307-student-biodata-form/
 ├── CONTRIBUTING.md
 └── README.md
 ```
-The application files in this tree are **planned**, not necessarily implemented yet. Team members will create them through their assigned tasks.
 
-## Running the project
-When `index.html` has been implemented, open it in a browser. No npm installation or backend is required.
+## How to run
+1. Download or clone this repository.
+2. Open `index.html` in a browser; no backend or package installation is required.
+3. Fill the fields with dummy data and select **Submit Biodata**.
+4. Verify that invalid or missing fields show errors, while valid data shows a success message.
 
-## Team workflow
-We have 10 group members. Each contributor should:
-1. Obtain an assigned GitHub Issue.
-2. Create their own feature branch from the latest `main`.
-3. Write and test their assigned code.
-4. Commit with their own Git identity and push the branch.
-5. Open a Pull Request linked to their assigned Issue.
-6. Wait for review before the changes are merged into `main`.
+You can also serve the folder locally using `python3 -m http.server 5500` and open `http://localhost:5500`.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for commands and standards.
+## Group contributions
+Individual commits and Pull Requests record the members' work:
+- Project scaffold and HTML/JavaScript integration: `successajar`
+- Academic information fields: `Regina182`
+- Form styling: `1saac-ai`
+- Base styling: `Makido001`
+- Final styling integration: `successajar`
 
-## Team responsibilities (proposed)
-The project leader coordinates integration and documentation. Other tasks will cover personal, contact, and academic HTML sections; base, form, and responsive CSS; and required-field, format, and submission validation. Specific names and Issue assignments will be added once the group roster is confirmed.
+The remaining HTML and JavaScript integration was completed by the group leader. GitHub Issues describe the original task allocations; a planned assignment does not necessarily indicate an individual submission.
 
-## Project status
-- [x] Repository created
-- [x] Collaboration documentation prepared
-- [x] Individual GitHub tasks assigned
-- [x] Form implemented
-- [ ] CSS completed
-- [ ] JavaScript validation completed
-- [ ] Pull Requests reviewed and integrated
-- [ ] Final group testing and submission
+## Integration status
+- [x] HTML biodata form
+- [x] JavaScript required-field and format validation
+- [x] Form submission feedback
+- [x] Base CSS and form CSS
+- [ ] Merge final responsive CSS changes from Pull Request #16
+- [ ] Complete final browser review and submission
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the group workflow.
