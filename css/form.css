@@ -92,3 +92,32 @@ input.error, select.error {
 }
 
 
+/* Final integration: keep the form readable on wide displays. */
+#biodata-form {
+    max-width: 46rem;
+}
+
+/* Submit button and visible keyboard focus. */
+#biodata-form button[type="submit"] {
+    background-color: #174ea6;
+    border-color: #174ea6;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+#biodata-form button[type="submit"]:hover:not(:disabled) {
+    background-color: #123b7a;
+}
+
+#biodata-form button[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#biodata-form input:focus-visible,
+#biodata-form select:focus-visible,
+#biodata-form button:focus-visible {
+    outline: 3px solid #1d70d6;
+    outline-offset: 2px;
+}

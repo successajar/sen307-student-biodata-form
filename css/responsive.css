@@ -1,0 +1,70 @@
+/* Responsive layout — SEN 305 Group 8. */
+@media (max-width: 768px) {
+    main {
+        width: min(100% - 1.5rem, 46rem);
+        padding-block: 1.25rem 2rem;
+    }
+
+    header {
+        padding: 1.75rem 1rem 0.5rem;
+    }
+
+    fieldset {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem 0.75rem 0.25rem;
+    }
+
+    header h1 {
+        font-size: 1.65rem;
+    }
+
+    header p {
+        font-size: 0.94rem;
+    }
+
+    main {
+        width: calc(100% - 1rem);
+        padding-block: 0.75rem 2rem;
+    }
+
+    fieldset {
+        padding: 0.85rem;
+        border-radius: 8px;
+    }
+
+    legend {
+        font-size: 1rem;
+        padding-inline: 0.35rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    input,
+    select,
+    button {
+        min-height: 44px;
+        font-size: 16px;
+    }
+
+    #form-status {
+        font-size: 0.94rem;
+        line-height: 1.5;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    #biodata-form button[type="submit"] {
+        transition: none;
+    }
+}

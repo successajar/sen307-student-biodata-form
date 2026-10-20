@@ -84,3 +84,16 @@ a:hover {
   outline: 3px solid #1d70d6;
   outline-offset: 3px;
 }
+
+/* Final integration: align the heading with the centered form. */
+header {
+  max-width: 46rem;
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 3.25rem) 1rem 0.5rem;
+  text-align: center;
+}
+
+header p {
+  color: #526072;
+  margin-bottom: 0;
+}
